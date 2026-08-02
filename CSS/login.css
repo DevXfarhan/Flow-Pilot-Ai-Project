@@ -1,0 +1,103 @@
+.auth-section{
+    padding-block: 6rem;
+    background-color: var(--primary-color);
+}
+
+.auth-card{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    width: 100%;
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.auth-logo img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 2rem;
+}
+.auth-header{
+    text-align: center;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 450px;
+}
+
+form input{
+    padding: .8rem;
+    margin-top: .4rem;
+    border-radius: var(--btn-border-radius);
+    border: 1px solid black;
+    font-size: var(--fs-small);
+}
+
+form label{
+    font-size: var(--fs-body);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.auth-options{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 2rem;
+    white-space: nowrap;
+    font-size: var(--fs-small);
+}
+
+.auth-btn{
+    border: none;
+    font-size: var(--fs-body);
+}
+.auth-btn:hover{
+    opacity: 0.9;
+}
+
+form 
+
+.remember-me{
+    display: flex;
+    flex: 1;
+    gap: .3rem;
+}
+
+.social-login{
+    display: flex;
+    gap: 2rem;
+}
+
+.social-login button{
+    padding: .6rem .7rem;
+    border-radius: var(--btn-border-radius);
+    border: 1px solid black;
+    font-size: var(--fs-small);
+}
+
+.auth-footer{
+    text-align: center;
+    font-size: var(--fs-small);
+}
+
+
+/* Signup Page */
+.terms-checkbox label{
+    font-size: var(--fs-small);
+}

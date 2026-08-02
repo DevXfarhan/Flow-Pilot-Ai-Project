@@ -1,0 +1,49 @@
+@media(min-width:768px) {
+
+    .nav-list,
+    .header-actions {
+        display: flex;
+    }
+
+    .header-actions {
+        margin-right: 0;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .solution-image {
+        display: flex;
+    }
+
+    .cta-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-top{
+        flex-direction: row;
+    }
+
+    .card-image{
+        display: flex;
+    }
+    /* Blog */
+    .blog-image{
+        display: flex;
+    }
+
+    .card-title, .badge{
+        text-align: left;
+    }
+
+    /* About */
+    
+
+}
